@@ -1,29 +1,28 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: Meus temas de interesse incluem estratificação social, ensino superior e grupos profissionais.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
-first_name: Alice
+  - course: Doutorado em Sociologia
+    institution: Universidade Federal do Rio de Janeiro (UFRJ)
+    year: 2022
+  - course: Mestrado em Sociologia e Antropologia
+    institution: Universidade Federal do Rio de Janeiro (UFRJ)
+    year: 2016
+  - course: Graduação em História
+    institution: Universidade Federal de Ouro Preto (UFOP)
+    year: 2013
+email: "leonardoalr@gmail.com"
+first_name: Leonardo
 highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-last_name: Bighetti
+- Ensino superior
+- Estratificação social
+- Sociologia das profissões
+last_name: Rodrigues
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: Instituto Federal do Norte de Minas Gerais (IFNMG)
+  url: https://www.ifnmg.edu.br/
+role: Professor de Sociologia e História.
 social:
 - icon: envelope
   icon_pack: fas
@@ -33,22 +32,18 @@ social:
   icon: twitter
   icon_pack: fab
   label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/Leoalr
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/leonardoalr
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/leonardo-lopesrodrigues/
 superuser: true
-title: Alice Bighetti 吳恩達
+title: Leonardo Rodrigues
 ---
 
-Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Leonardo Rodrigues é professor de Sociologia e História no Instituto Federal do Norte de Minas Gerais (IFNMG - Almenara). Tem doutorado em Sociologia pela Universidade Federal do Rio de Janeiro (UFRJ) com período sanduíche em Cornell University (EUA). É membro do Laboratório de Pesquisas em Ensino Superior (LAPES - UFRJ).
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
