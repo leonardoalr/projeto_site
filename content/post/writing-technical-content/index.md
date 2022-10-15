@@ -1,4 +1,5 @@
 ---
+draft: true
 date: "2019-07-12"
 image:
   caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'

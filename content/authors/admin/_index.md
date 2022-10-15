@@ -1,10 +1,13 @@
 ---
-bio: Meus temas de interesse incluem estratificação social, ensino superior e grupos profissionais.
+bio: Meus temas de interesse incluem sociologia da educação, estratificação social e metodologias das ciências sociais.
 education:
   courses:
   - course: Doutorado em Sociologia
     institution: Universidade Federal do Rio de Janeiro (UFRJ)
     year: 2022
+  - course: Pesquisador visitante
+    institution: Cornell University (EUA)
+    year: 2019 - 2020
   - course: Mestrado em Sociologia e Antropologia
     institution: Universidade Federal do Rio de Janeiro (UFRJ)
     year: 2016
@@ -15,9 +18,11 @@ email: "leonardoalr@gmail.com"
 first_name: Leonardo
 highlight_name: true
 interests:
-- Ensino superior
+- Sociologia da Educação
+- Ensino Superior
 - Estratificação social
-- Sociologia das profissões
+- Metodologia em Ciências Sociais
+- Programação em R
 last_name: Rodrigues
 organizations:
 - name: Instituto Federal do Norte de Minas Gerais (IFNMG)
@@ -26,7 +31,7 @@ role: Professor de Sociologia e História.
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: leonardoalr@gmail.com
 - display:
     header: true
   icon: twitter
@@ -39,11 +44,19 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/leonardo-lopesrodrigues/
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0001-5176-5079
+- icon: lattes
+  icon_pack: ai
+  link: http://lattes.cnpq.br/9481375627977566
 superuser: true
 title: Leonardo Rodrigues
 ---
 
 
-Leonardo Rodrigues é professor de Sociologia e História no Instituto Federal do Norte de Minas Gerais (IFNMG - Almenara). Tem doutorado em Sociologia pela Universidade Federal do Rio de Janeiro (UFRJ) com período sanduíche em Cornell University (EUA). É membro do Laboratório de Pesquisas em Ensino Superior (LAPES - UFRJ).
+Sou professor de Sociologia e História no Instituto Federal do Norte de Minas Gerais (IFNMG - Almenara). Tenho doutorado em Sociologia pela Universidade Federal do Rio de Janeiro (UFRJ), com período sanduíche em Cornell University (EUA). Sou membro do [Laboratório de Pesquisas em Ensino Superior (LAPES)](https://www.lapesbr.org/).
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Tenho interesse nas áreas de sociologia da educação e estratificação social. Como pesquisador, busco analisar a relação entre os sistemas de ensino e as desigualdades sociais. Além disso, tenho interesse nos estudos de metodologia das ciências sociais com enfoque em métodos quantitativos.
+
+Além da pesquisa acadêmica, tenho experiência em análise de dados (BI) com enfoque em coleta de dados, análise estatística e visualização de dados. Como docente, atuei em contextos diversos: fui professor de educação básica (Estado de Minas Gerais), professor de Educação de Jovens e Adultos (Sistema Prisional - MG) e professor substituto no Departamento de Educação da Universidade Federal de Ouro Preto (UFOP). Atualmente, sou professor de ensino básico técnico e superior no IFNMG - Almenara, onde também desenvolvo pesquisas na área da sociologia da educação.
