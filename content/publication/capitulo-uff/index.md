@@ -24,4 +24,3 @@ tags: [credencialismo, estratificação social, educação, desigualdades]
 title: "Estratificação social e credenciais educacionais: perspectivas clássicas e contemporâneas"
 url_pdf: http://www.educacao.ufrj.br/wp-content/uploads/2022/05/livro_analises_sociologicas_final.pdf?fbclid=IwAR1qOULwuIxawGqXbr_wwFaGIoWgb4i1duZzJufqFwqOasJkfXXftUGdVdY
 ---
-
