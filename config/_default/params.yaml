@@ -9,7 +9,7 @@ appearance:
   theme_day: minimal
   theme_night: minimal
   font: minimal
-  font_size: L
+  font_size: M
 
 # SEO
 
@@ -61,7 +61,7 @@ locale:
 
 features:
   syntax_highlighter:
-    theme_light: github-light
+    theme_light: dracula
     theme_dark: dracula
   math:
     enable: false
