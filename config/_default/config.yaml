@@ -5,7 +5,8 @@ theme: "starter-hugo-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Leonardo Rodrigues # Website name
-baseURL: 'https://leonardorodrigues.netlify.app' # Website URL
+baseURL: 'https://leonardoalr.com'
+#'https://leonardorodrigues.netlify.app' # Website URL
 
 ############################
 ## LANGUAGE
