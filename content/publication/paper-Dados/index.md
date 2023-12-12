@@ -18,7 +18,7 @@ publication_types:
 - "2"
 publishDate: "2023-03-01T00:00:00Z"
 
-tags: [estratificação horizontal, profissões imperiais, ensino superior, desigualdade; expansão, educacional]
+tags: [estratificação horizontal, profissões imperiais, ensino superior, desigualdade, expansão educacional]
 title: "Estratificação Horizontal do Ensino Superior Brasileiro e as Profissões Imperiais: Os Concluintes de Medicina, Engenharia e Direito entre 2009 e 2017"
 url_pdf: https://www.scielo.br/j/dados/a/7syGQmndqZ988PTtTZ3bHCb/
 ---

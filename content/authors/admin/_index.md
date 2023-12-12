@@ -27,7 +27,7 @@ last_name: Rodrigues
 organizations:
 - name: Instituto Federal do Norte de Minas Gerais (IFNMG)
   url: https://www.ifnmg.edu.br/
-role: Professor de Sociologia e História.
+role: Leonardo Augusto Lopes Rodrigues.
 social:
 - icon: envelope
   icon_pack: fas
@@ -51,7 +51,7 @@ social:
   icon_pack: ai
   link: http://lattes.cnpq.br/9481375627977566
 superuser: true
-title: Leonardo Rodrigues
+title: Leonardo Rodrigues 
 ---
 
 
