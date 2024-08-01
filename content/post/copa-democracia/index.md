@@ -109,12 +109,12 @@ Bom, e agora? Como criar um índice a partir desses diferentes componentes? Bast
 
 
 {{< math >}}
-$$\text{Soma dos componentes}=\frac{1}{8}\text{c1}+\frac{1}{4}\text{c2}+\frac{1}{4}\text{c3}+\frac{1}{8}\text{c4}+\frac{1}{4}\text{c5}$$
+$$\text{Soma dos componentes}=\frac{1}{8}\text{c1}+\frac{1}{8}\text{c2}+\frac{1}{4}\text{c3}+\frac{1}{8}\text{c4}+\frac{1}{4}\text{c5}$$
 {{< /math >}}
 
-Repare que se trata de uma média ponderada. Os pesquisadores identificaram que _c1_ e _c4_ poderiam ser facilmente incluídos em alguns países apenas formalmente. Em outras palavras, para medir a democracia, eles consideram que os demais índices deveriam ter peso maior do que _eleições livres, justas e frequentes_ e _cidadania inclusiva_. Não porque são princípios menores do que os outros, mas porque são mensurados de forma diferente.
+Repare que se trata de uma média ponderada. Os pesquisadores identificaram que _c2_ e _c4_ poderiam ser facilmente incluídos em alguns países apenas formalmente. Em outras palavras, para medir a democracia, eles consideram que os demais índices deveriam ter peso maior do que _dirigentes eleitos_ e _cidadania inclusiva_. Não porque são princípios menores do que os outros, mas porque são mensurados de forma diferente.
 
-No entanto, a soma ou uma média dos componentes pode ignorar algumas ausências. Por exemplo, a Sérvia apresenta 100% no componente de dirigentes eleitos ( _c2=1_ ), mas apresenta apenas 0,353 em eleições livres, limpas e justas ( _c1_ ). Em um caso hipotético, do que adiantaria os dirigentes serem eleitos se apenas uma parcela minúscula da população tivesse votado? Ao somar corremos o risco de ignorar componentes fundamentais da democracia.
+No entanto, a soma ou uma média dos componentes pode ignorar algumas ausências. Por exemplo, a Sérvia apresenta 100% no componente de dirigentes eleitos ( _c2_ ), mas apresenta apenas 0,353 em eleições livres, limpas e justas ( _c1_ ). Em um caso hipotético, do que adiantaria os dirigentes serem eleitos se apenas uma parcela minúscula da população tivesse votado? Ao somar corremos o risco de ignorar componentes fundamentais da democracia.
 
 Como driblar esse problema? Precisamos penalizar aqueles países que tem baixos índices em alguns componentes fundamentais. A solução matemática para isso é a multiplicação. Para o caso do Brasil, o baixo índice em c3 será multiplicado por todos os outros índices. Em outras palavras, um componente com índice baixo penalizará todos os outros altos. A solução seria:
 
@@ -159,7 +159,7 @@ Nessa versão, eu adaptei o script criado pelo professor Chris Hanretty para uma
 
 *Código*
 
-```
+```r
 #Pacotes necessários
 library(tidyverse)
 library(hrbrthemes)
