@@ -108,15 +108,16 @@ Também podemos coletar os tuítes com mais interações entre os 10 mil coletad
 
 1) Em primeiro lugar, o tuíte de @futebol_info noticiando o pênalti perdido.
 
-{{< tweet 1541934620098396161 >}}
+{{< twitter user="futebol_info" id="1541934620098396161" >}}
 
 2) Em segundo lugar, o tuíte de @paposfut chamando a atenção para o prêmio de melhor da partida (ainda no primeiro tempo)
 
-{{< tweet 1541915607419043841 >}}
+{{< twitter user="paposfut" id="1541915607419043841" >}}
+
 
 3) Em terceiro lugar, O tuíte de @Atletico anunciando o gol do Galo.
 
-{{< tweet 1541912283445661697 >}}
+{{< twitter user="Atletico" id="1541912283445661697" >}}
 
 
 **Créditos**:

@@ -13,7 +13,7 @@ title: Copa da Democracia - plano de aula utilizando o R
 
 Durante a copa, trombei com esse tuíte do professor Chris Hanretty:
 
-{{< tweet 1594315070284398592 >}}
+{{< twitter user="chrishanretty" id="1594315070284398592" >}}
 
 Na sequência do tuíte, o professor apresenta a classificação dos grupos da copa de acordo com o nível de democracia dos países. Achei que o exercício encaixava bem na temática de **"Poder e Democracia"**, prevista para o mês de dezembro na disciplina de Sociologia.
 
