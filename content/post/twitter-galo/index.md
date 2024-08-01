@@ -7,6 +7,7 @@ date: "2022-06-30"
 math: true
 ---
 ### Como raspar dados do Twitter?
+
 **Atualização**: Com as mudanças na plataforma, o exercício e os scripts estão desatualizados.
 
 ### Contexto
