@@ -1,6 +1,6 @@
 ---
 bio: Meus temas de interesse incluem sociologia da educação, estratificação social e metodologias das ciências sociais.
-education:
+Formação:
   courses:
   - course: Doutorado em Sociologia
     institution: Universidade Federal do Rio de Janeiro (UFRJ)
@@ -17,17 +17,17 @@ education:
 email: "leonardoalr@gmail.com"
 first_name: Leonardo
 highlight_name: true
-interests:
+Interesses:
 - Sociologia da Educação
-- Ensino Superior
+- Educação Superior
 - Estratificação social
 - Metodologia em Ciências Sociais
 - Programação em R
 last_name: Rodrigues
 organizations:
-- name: Instituto Federal do Norte de Minas Gerais (IFNMG)
-  url: https://www.ifnmg.edu.br/
-role: Leonardo Augusto Lopes Rodrigues.
+- name: Instituto Federal do Sul de Minas Gerais (IFSULDEMINAS)
+  url: https://portal.ifsuldeminas.edu.br/index.php
+role: Professor.
 social:
 - icon: envelope
   icon_pack: fas
@@ -55,8 +55,8 @@ title: Leonardo Rodrigues
 ---
 
 
-Sou professor de Sociologia e História no Instituto Federal do Norte de Minas Gerais (IFNMG - Almenara). Tenho doutorado em Sociologia pela Universidade Federal do Rio de Janeiro (UFRJ), com período sanduíche em Cornell University (EUA). Sou membro do [Laboratório de Pesquisas em Ensino Superior (LAPES)](https://www.lapesbr.org/).
+Professor e pesquisador no Instituto Federal do Sul de Minas Gerais (Inconfidentes) e membro do [Laboratório de Pesquisas em Ensino Superior (LAPES)](https://www.lapesbr.org/).
 
-Tenho interesse nas áreas de sociologia da educação e estratificação social. Como pesquisador, busco analisar a relação entre os sistemas de ensino e as desigualdades sociais. Além disso, tenho interesse nos estudos de metodologia das ciências sociais com enfoque em métodos quantitativos.
+Tenho interesse nas áreas de sociologia, educação e estratificação social. Como pesquisador, busco analisar a relação entre os sistemas de ensino e as desigualdades sociais. Além disso, tenho interesse nos estudos de metodologia das ciências sociais com enfoque em métodos quantitativos.
 
-Além da pesquisa acadêmica, tenho experiência em análise de dados (BI) com enfoque em coleta de dados, análise estatística e visualização de dados. Como docente, atuei em contextos diversos: fui professor de educação básica (Estado de Minas Gerais), professor de Educação de Jovens e Adultos (Sistema Prisional - MG) e professor substituto no Departamento de Educação da Universidade Federal de Ouro Preto (UFOP). Atualmente, sou professor de ensino básico técnico e superior no IFNMG - Almenara, onde também desenvolvo pesquisas na área da sociologia da educação.
+Além da pesquisa acadêmica, tenho experiência em análise de dados (BI) com enfoque em coleta de dados, análise estatística e visualização de dados. Como docente, atuei em contextos diversos: fui professor de educação básica (Estado de Minas Gerais), professor de Educação de Jovens e Adultos (Sistema Prisional - MG), professor substituto no Departamento de Educação da Universidade Federal de Ouro Preto (UFOP) e professor efetivo no IFNMG (Campus Almenara).
