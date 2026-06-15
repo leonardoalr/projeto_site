@@ -26,7 +26,7 @@ O/a estudante irá aprofundar nas principais características do sistema democr�
 
 Os países selecionados foram aqueles que participaram da **Copa do Mundo de Futebol de 2022** e foram classificados de acordo com os 8 grupos da competição. O produto desse exercício é a classificação dos países em seus grupos de acordo com seu nível de democracia. Um exemplo de resultado é o gráfico a seguir:
 
-{{< chart data="line-chart" >}}
+No site anterior, este trecho exibia um gráfico da Copa da Democracia. Nesta versão simples, mantive o plano de aula e os dados para facilitar a manutenção do site.
 
 ### Organização
 
@@ -102,16 +102,20 @@ Acrescentei na lousa, na frente de cada requisito, o índice para o Brasil e par
 
 Esses índices estão disponíveis no banco de dados do V-DEM. Para facilitar, o banco de dados simplificado e em formato fácil de abrir em Excel está disponível no link abaixo.
 
-{{% staticref "uploads/democracia_simplificado.xlsx" "newtab" %}}AQUI{{% /staticref %}} para fazer o download da planilha.
+[AQUI](/democracia_simplificado.xlsx) para fazer o download da planilha.
 
-{{< table path="results.csv" header="true" caption="Tabela 1: Índices de cada componente por país" >}}
+| Componente | Brasil | Sérvia |
+| --- | ---: | ---: |
+| C1 | 0.855 | 0.353 |
+| C2 | 1 | 1 |
+| C3 | 0.659 | 0.397 |
+| C4 | 1 | 1 |
+| C5 | 0.875 | 0.614 |
 
 Bom, e agora? Como criar um índice a partir desses diferentes componentes? Bastaria somar para saber quem tem mais pontos? É uma alternativa. Vamos fazer!
 
 
-{{< math >}}
 $$\text{Soma dos componentes}=\frac{1}{8}\text{c1}+\frac{1}{8}\text{c2}+\frac{1}{4}\text{c3}+\frac{1}{8}\text{c4}+\frac{1}{4}\text{c5}$$
-{{< /math >}}
 
 Repare que se trata de uma média ponderada. Os pesquisadores identificaram que _c2_ e _c4_ poderiam ser facilmente incluídos em alguns países apenas formalmente. Em outras palavras, para medir a democracia, eles consideram que os demais índices deveriam ter peso maior do que _dirigentes eleitos_ e _cidadania inclusiva_. Não porque são princípios menores do que os outros, mas porque são mensurados de forma diferente.
 
@@ -120,15 +124,11 @@ No entanto, a soma ou uma média dos componentes pode ignorar algumas ausências
 Como driblar esse problema? Precisamos penalizar aqueles países que tem baixos índices em alguns componentes fundamentais. A solução matemática para isso é a multiplicação. Para o caso do Brasil, o baixo índice em c3 será multiplicado por todos os outros índices. Em outras palavras, um componente com índice baixo penalizará todos os outros altos. A solução seria:
 
 
-{{< math >}}
 $$\text{Multiplicação dos componentes}=\text{c1}\times\text{c2}\times\text{c3}\times\text{c4}\times\text{c5}$$
-{{< /math >}}
 
 No entanto, na multiplicação também teremos um ônus. Por exemplo, um país pode ter uma sociedade civil tão participativa que poderia compensar a inexistência de dirigentes eleitos diretamente. Por isso, para chegar ao meio termo entre a multiplicação e a soma, a alternativa encontrada foi fazer uma média dos dois índices. A fórmula final é:
 
-{{< math >}}
 $$\text{Poliarquia} = \frac{\text{Soma dos Componentes}+\text{Multiplicação dos componentes}}{2}$$
-{{< /math >}}
 
 Aqui, dei um tempo para que os estudantes fizessem a conta e depois compartilhassem o resultado.
 
@@ -155,7 +155,7 @@ No final, os estudantes apresentaram o gráfico de seu grupo para a turma e disc
 
 Nessa versão, eu adaptei o script criado pelo professor Chris Hanretty para uma versão mais simplificada. Por isso, os gráficos também são mais simples. A simplificação do script foi uma estratégia para aproximar os estudantes da linguagem, para que eles tivessem o maior controle sobre cada uma das linhas. Além disso, não utilizei o banco de dados completo do V-DEM. No campus, temos problemas com internet e optei por diminuir o tamanho do banco de dados para agilizar o download. Para facilitar a explicação, dei novos nomes às variáveis originais. Você pode baixar o banco simplificado no link abaixo.
 
-{{% staticref "uploads/democracia.csv" "newtab" %}}Link para o banco de dados{{% /staticref %}}
+[Link para o banco de dados](/democracia.csv)
 
 
 *Código*
@@ -226,7 +226,7 @@ O código original, criado pelo professor Chris Hanretty, pode ser encontrado em
 
 Uma alternativa, _que ainda não testei_, é a utilização do formato manual. Nesse caso, o professor pode distribuir uma planilha com os índices dos países e os estudantes poderiam fazer o cálculo do índice manualmente e/ou o desenho do gráfico. Abaixo, disponibilizo a planilha que você poderá abrir no Excel.
 
-{{% staticref "uploads/democracia_simplificado.xlsx" "newtab" %}}AQUI{{% /staticref %}} para fazer o download da planilha.
+[AQUI](/democracia_simplificado.xlsx) para fazer o download da planilha.
 
 ## Comentários
 - O banco de dados do V-DEM é muito interessante. Explorá-lo pode trazer mais ideias de como abordar o tema de democracia com exemplos práticos.

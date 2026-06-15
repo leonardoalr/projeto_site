@@ -1,8 +1,4 @@
 ---
-cms_exclude: true
-header:
-  caption: ""
-  image: ""
-title: Posts
-view: 2
+title: "Posts"
+description: "Textos, análises e notas de trabalho."
 ---

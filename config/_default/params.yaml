@@ -1,114 +1,44 @@
-# SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+env: production
+description: "Site pessoal de Leonardo Rodrigues, professor e pesquisador em sociologia da educação, educação superior e desigualdades sociais."
+author: "Leonardo Rodrigues"
+defaultTheme: auto
+disableThemeToggle: false
+ShowReadingTime: true
+ShowShareButtons: false
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
+ShowRssButtonInSectionTermList: true
+disableSpecial1stPost: true
+mainSections:
+  - post
 
-# Appearance
+profileMode:
+  enabled: true
+  title: "Leonardo Rodrigues"
+  subtitle: "Professor e pesquisador em sociologia da educação, educação superior, desigualdades sociais e métodos quantitativos."
+  imageUrl: "/avatar-small.jpg"
+  imageTitle: "Leonardo Rodrigues"
+  imageWidth: 160
+  imageHeight: 160
+  buttons:
+    - name: Sobre
+      url: "/#sobre"
+    - name: Publicações
+      url: "/#publicacoes"
+    - name: Posts
+      url: "/#posts"
+    - name: Projetos
+      url: "/#projetos"
 
-appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
-  font_size: M
-
-# SEO
-
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-  verification:
-    google: ''
-    baidu: ''
-
-# Site header
-
-header:
-  navbar:
-    enable: true
-    align: l
-    show_logo: true
-    show_language: false
-    show_day_night: false
-    show_search: true
-    highlight_active_link: true
-
-# Site footer
-
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
-
-# Localization
-
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
-
-# Site features
-
-features:
-  syntax_highlighter:
-    theme_light: github-light
-    theme_dark: github-light
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/<username>/<repository>'
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-  map:
-    provider: ''
-    api_key: ''
-    zoom: 15
-
-# Extensions
-
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: true
-
-# Security
-
-security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: true
+socialIcons:
+  - name: email
+    url: "mailto:leonardoalr@gmail.com"
+  - name: github
+    url: "https://github.com/leonardoalr"
+  - name: linkedin
+    url: "https://www.linkedin.com/in/leonardo-lopesrodrigues/"
+  - name: orcid
+    url: "https://orcid.org/0000-0001-5176-5079"
+  - name: x
+    url: "https://twitter.com/Leoalr"

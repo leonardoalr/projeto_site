@@ -1,8 +1,4 @@
 ---
-cms_exclude: true
-header:
-  caption: ""
-  image: ""
-title: Publications
-view: 10
+title: "Publicações"
+description: "Artigos, capítulos e outras publicações acadêmicas."
 ---

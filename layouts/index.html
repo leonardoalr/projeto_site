@@ -1,0 +1,98 @@
+{{- define "main" }}
+{{- $about := site.GetPage "/about" -}}
+{{- $projects := where site.RegularPages "Section" "project" -}}
+{{- $publications := where site.RegularPages "Section" "publication" -}}
+{{- $posts := where site.RegularPages "Section" "post" -}}
+
+<section class="onepage-hero" id="inicio">
+  {{- with site.Params.profileMode }}
+  <div class="onepage-hero-inner">
+    {{- if .imageUrl }}
+    <img class="onepage-avatar" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default site.Title }}" width="{{ .imageWidth | default 160 }}" height="{{ .imageHeight | default 160 }}">
+    {{- end }}
+    <div class="onepage-hero-copy">
+      <h1>{{ .title | default site.Title }}</h1>
+      <p>{{ .subtitle | markdownify }}</p>
+      {{ partial "social_icons.html" }}
+      <div class="buttons">
+        <a class="button" href="#sobre"><span class="button-inner">Sobre</span></a>
+        <a class="button" href="#publicacoes"><span class="button-inner">Publicações</span></a>
+        <a class="button" href="#posts"><span class="button-inner">Posts</span></a>
+        <a class="button" href="#projetos"><span class="button-inner">Projetos</span></a>
+      </div>
+    </div>
+  </div>
+  {{- end }}
+</section>
+
+<section class="onepage-section" id="sobre">
+  <div class="onepage-section-head">
+    <h2>Sobre</h2>
+    <a href="{{ "/about/" | relURL }}">Perfil completo</a>
+  </div>
+  <div class="post-content md-content onepage-about">
+    <p>Sou professor e pesquisador no Instituto Federal do Sul de Minas Gerais (IFSULDEMINAS, campus Inconfidentes) e membro do <a href="https://www.lapesbr.org/">Laboratório de Pesquisas em Ensino Superior (LAPES)</a>.</p>
+    <p>Meus interesses de pesquisa passam por sociologia da educação, educação superior, estratificação social e métodos quantitativos. Também trabalho com análise de dados, visualização e programação em R.</p>
+    <p>Este site reúne projetos, publicações e alguns textos de trabalho ligados a pesquisa, ensino e análise de dados.</p>
+  </div>
+</section>
+
+<section class="onepage-section" id="publicacoes">
+  <div class="onepage-section-head">
+    <h2>Publicações</h2>
+    <a href="{{ "/publication/" | relURL }}">Ver todas</a>
+  </div>
+  <div class="onepage-list onepage-list-compact">
+    {{- range ($publications.ByDate.Reverse) }}
+    <article class="onepage-item">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{- with .Params.publication }}
+      <p>{{ . | markdownify | plainify | htmlUnescape }}</p>
+      {{- else }}
+        {{- with .Summary }}<p>{{ . | plainify | htmlUnescape }}</p>{{- end }}
+      {{- end }}
+      {{- if not .Date.IsZero }}
+      <span>{{ .Date | time.Format "2006" }}</span>
+      {{- end }}
+    </article>
+    {{- end }}
+  </div>
+</section>
+
+<section class="onepage-section" id="posts">
+  <div class="onepage-section-head">
+    <h2>Posts</h2>
+    <a href="{{ "/post/" | relURL }}">Ver todos</a>
+  </div>
+  <div class="onepage-list">
+    {{- range first 4 ($posts.ByDate.Reverse) }}
+    <article class="onepage-item">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{- with .Summary }}
+      <p>{{ . | plainify | htmlUnescape }}</p>
+      {{- end }}
+      {{- if not .Date.IsZero }}
+      <span>{{ .Date | time.Format "2 Jan 2006" }}</span>
+      {{- end }}
+    </article>
+    {{- end }}
+  </div>
+</section>
+
+<section class="onepage-section" id="projetos">
+  <div class="onepage-section-head">
+    <h2>Projetos</h2>
+    <a href="{{ "/project/" | relURL }}">Ver todos</a>
+  </div>
+  <div class="onepage-list onepage-list-compact">
+    {{- range first 3 ($projects.ByDate.Reverse) }}
+    <article class="onepage-item">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{- if not .Date.IsZero }}
+      <span>{{ .Date | time.Format "2006" }}</span>
+      {{- end }}
+    </article>
+    {{- end }}
+  </div>
+</section>
+{{- end }}

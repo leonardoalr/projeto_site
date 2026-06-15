@@ -1,0 +1,53 @@
+{{- define "main" }}
+<article class="post-single publication-single">
+  <header class="post-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    <div class="post-meta">
+      {{- if not .Date.IsZero }}
+      <span>{{ .Date | time.Format "2006" }}</span>
+      {{- end }}
+      {{- with .Params.publication }}
+      <span>{{ . | markdownify }}</span>
+      {{- end }}
+    </div>
+  </header>
+
+  <div class="post-content md-content">
+    {{- with .Params.abstract }}
+    <h2>Resumo</h2>
+    <p>{{ . | markdownify }}</p>
+    {{- end }}
+
+    {{- if .Content }}
+    {{ .Content }}
+    {{- end }}
+
+    {{- if or .Params.doi .Params.url_pdf }}
+    <h2>Links</h2>
+    <ul>
+      {{- with .Params.doi }}
+      {{- $doi := printf "%s" . }}
+      {{- if not (hasPrefix $doi "http") }}
+        {{- $doi = printf "https://doi.org/%s" $doi }}
+      {{- end }}
+      <li><a href="{{ $doi }}">DOI</a></li>
+      {{- end }}
+      {{- with .Params.url_pdf }}
+      <li><a href="{{ . }}">PDF</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div>
+
+  {{- with .Params.tags }}
+  <footer class="post-footer">
+    <ul class="post-tags">
+      {{- range . }}
+      <li><a href="{{ (printf "/tags/%s/" (. | urlize)) | relURL }}">{{ . }}</a></li>
+      {{- end }}
+    </ul>
+  </footer>
+  {{- end }}
+</article>
+{{- end }}
