@@ -13,7 +13,7 @@ image:
   preview_only: false
 
 publication: "*Dados*"
-publication_short: "In *Dados*"
+publication_short: "*Dados*"
 publication_types:
 - "2"
 publishDate: "2023-03-01T00:00:00Z"

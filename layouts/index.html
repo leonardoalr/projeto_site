@@ -44,16 +44,22 @@
   </div>
   <div class="onepage-list onepage-list-compact">
     {{- range ($publications.ByDate.Reverse) }}
-    <article class="onepage-item">
+    <article class="onepage-item onepage-publication-item">
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      {{- with .Params.publication }}
-      <p>{{ . | markdownify | plainify | htmlUnescape }}</p>
-      {{- else }}
-        {{- with .Summary }}<p>{{ . | plainify | htmlUnescape }}</p>{{- end }}
-      {{- end }}
-      {{- if not .Date.IsZero }}
-      <span>{{ .Date | time.Format "2006" }}</span>
-      {{- end }}
+      <p>
+        {{- if not .Date.IsZero -}}
+        <span>{{ .Date | time.Format "2006" }}</span>
+        {{- end -}}
+        {{- with .Params.publication_short -}}
+          {{- if not $.Date.IsZero }} · {{ end -}}
+          {{ . | markdownify | plainify | htmlUnescape }}
+        {{- else -}}
+          {{- with .Params.publication -}}
+            {{- if not $.Date.IsZero }} · {{ end -}}
+            {{ . | markdownify | plainify | htmlUnescape }}
+          {{- end -}}
+        {{- end -}}
+      </p>
     </article>
     {{- end }}
   </div>
@@ -85,7 +91,7 @@
     <a href="{{ "/project/" | relURL }}">Ver todos</a>
   </div>
   <div class="onepage-list onepage-list-compact">
-    {{- range first 3 ($projects.ByDate.Reverse) }}
+    {{- range ($projects.ByDate.Reverse) }}
     <article class="onepage-item">
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       {{- if not .Date.IsZero }}

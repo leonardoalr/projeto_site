@@ -13,7 +13,7 @@ image:
   preview_only: false
 
 publication: "*Bionota: Antônio Augusto Prates*"
-publication_short: "In *Retratos: Sociólogos e Sociólogas Brasileiras - Volume 1*"
+publication_short: "*Retratos: Sociólogos e Sociólogas Brasileiras - Volume 1*"
 publication_types:
 - "6"
 publishDate: "2021-07-01T00:00:00Z"

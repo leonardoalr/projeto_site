@@ -13,7 +13,7 @@ image:
   preview_only: false
 
 publication: "*Avaliação: Revista da Avaliação da Educação Superior (Campinas)*"
-publication_short: "In *Avaliação*"
+publication_short: "*Avaliação*"
 publication_types:
 - "2"
 publishDate: "2023-12-11T00:00:00Z"

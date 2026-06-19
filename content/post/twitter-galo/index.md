@@ -63,13 +63,19 @@ gg <- dados %>%
 
 O resultado desse script é um gráfico de frequência de tuítes ao longo do jogo.
 
+![Gráfico de frequência de tuítes ao longo do jogo](Grafico-galo.jpeg)
+
 ### Explorando o conteúdo
 
 Com o banco de dados salvo, há inúmeras opções de análises mais qualitativas. Apenas para exploração, fiz uma nuvem de palavras para cada tempo de jogo.
 
 No primeiro tempo, o foco foi o gol de Ademir. Em segundo plano, aparecem comentários sobre outros jogadores, a necessidade de "matar" o jogo e a previsão de empate. O engajamento foi maior e mais pessimista na parte final do jogo.
 
+![Palavras mais frequentes no primeiro tempo](nuvem1.png)
+
 No segundo tempo, as palavras mais frequentes são ligadas ao pênalti e aos nomes de Allan, Hulk e Nathan. Também aparecem "turco" e "Palmeiras".
+
+![Palavras mais frequentes no segundo tempo](nuvem2.png)
 
 ### O que engajou mais?
 

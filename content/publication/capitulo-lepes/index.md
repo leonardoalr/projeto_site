@@ -13,7 +13,7 @@ image:
   preview_only: false
 
 publication: "*Ensino superior e estratificação horizontal: uma análise dos cursos de engenharia na cidade do Rio de Janeiro*"
-publication_short: "In *Avanços e desafios na democratização da educação superior no Brasil*"
+publication_short: "*Avanços e desafios na democratização da educação superior no Brasil*"
 publication_types:
 - "6"
 publishDate: "2019-07-01T00:00:00Z"

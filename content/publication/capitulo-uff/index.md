@@ -15,7 +15,7 @@ image:
   preview_only: false
 
 publication: "*Educação e Sociedade: análises sociológicas*"
-publication_short: "In *Educação e Sociedade: análises sociológicas*"
+publication_short: "*Educação e Sociedade: análises sociológicas*"
 publication_types:
 - "6"
 publishDate: "2017-07-01T00:00:00Z"

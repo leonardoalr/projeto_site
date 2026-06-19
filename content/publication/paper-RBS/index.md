@@ -17,7 +17,7 @@ image:
   preview_only: false
 
 publication: "*Revista Brasileira de Sociologia*"
-publication_short: "In *Revista Brasileira de Sociologia*"
+publication_short: "*Revista Brasileira de Sociologia*"
 publication_types:
 - "2"
 publishDate: "2017-07-01T00:00:00Z"
