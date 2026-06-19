@@ -26,7 +26,7 @@ O/a estudante irá aprofundar nas principais características do sistema democr�
 
 Os países selecionados foram aqueles que participaram da **Copa do Mundo de Futebol de 2022** e foram classificados de acordo com os 8 grupos da competição. O produto desse exercício é a classificação dos países em seus grupos de acordo com seu nível de democracia. Um exemplo de resultado é o gráfico a seguir:
 
-No site anterior, este trecho exibia um gráfico da Copa da Democracia. Nesta versão simples, mantive o plano de aula e os dados para facilitar a manutenção do site.
+![Gráfico da Copa da Democracia](featured.png)
 
 ### Organização
 

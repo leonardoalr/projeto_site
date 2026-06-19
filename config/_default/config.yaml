@@ -32,7 +32,7 @@ paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$, figure\.html$, line-chart\.json$, \.jpg$, \.jpeg$, \.png$]
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$, figure\.html$, line-chart\.json$]
 permalinks:
   event: '/talk/:slug/'
   tags: '/tag/:slug/'
